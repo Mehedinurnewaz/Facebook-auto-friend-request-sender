@@ -52,6 +52,12 @@ This is a Chrome extension designed for educational purposes that automates send
 
 ---
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
 ## Developer Info & Contact
 
 Developed by **Mehedi Nur Newaz**
@@ -61,12 +67,6 @@ Developed by **Mehedi Nur Newaz**
 - Email: [mehedinurnewaz2021@gmail.com](mailto:mehedinurnewaz2021@gmail.com)
 
 If you want to hire or collaborate, feel free to contact me.
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
