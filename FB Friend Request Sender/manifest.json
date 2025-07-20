@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "FB Friend Request Sender",
+  "version": "1.1",
+  "description": "Send Facebook friend requests automatically by UID in single tab.",
+  "author": "Mehedi Nur Newaz",
+  "permissions": ["scripting", "tabs", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  },
+  "host_permissions": ["*://*.facebook.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

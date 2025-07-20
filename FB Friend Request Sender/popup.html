@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FB Friend Request Sender</title>
+  <style>
+    body { font-family: Arial; padding: 10px; width: 300px; }
+    textarea { width: 100%; height: 100px; }
+    input[type=number] { width: 60px; }
+    button { width: 48%; padding: 8px; margin-top: 8px; }
+    #history { max-height: 150px; overflow-y: auto; background: #f0f0f0; padding: 5px; margin-top: 10px; }
+    hr { margin: 20px 0; }
+    p, h4 { color: gray; }
+    a { color: #065fd4; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <h3>UID List</h3>
+  <textarea id="uidInput" placeholder="Enter UIDs, one per line"></textarea>
+  <br><br>
+  Delay (sec): <input type="number" id="delayInput" value="10" min="1"><br><br>
+
+  <button id="startBtn">Start</button>
+  <button id="stopBtn">Stop</button>
+  <p id="status"></p>
+
+  <hr>
+
+  <h3>History</h3>
+  <button id="showHistoryBtn">Show History</button>
+  <div id="history"></div>
+
+  <script src="popup.js"></script>
+
+  <hr>
+  <p style="font-size:12px; text-align:center; margin-top:10px;">
+    Developed by <b>Mehedi Nur Newaz</b> | Educational Project | 
+    <a href="https://github.com/mehedinurnewaz" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </p>
+
+  <hr>
+  <h4 style="text-align:center; margin-bottom: 5px;">Contact Me</h4>
+  <p style="font-size:12px; text-align:center; margin-top:0;">
+    If you want to hire or collaborate, feel free to contact me:<br>
+    <a href="https://www.facebook.com/Mdmehedinurnewaz" target="_blank" rel="noopener noreferrer">Facebook</a> | 
+    <a href="https://www.linkedin.com/in/mehedinurnewaz/" target="_blank" rel="noopener noreferrer">LinkedIn</a> | 
+    <a href="mailto:mehedinurnewaz2021@gmail.com">Email</a>
+  </p>
+</body>
+</html>
